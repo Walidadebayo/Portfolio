@@ -644,8 +644,7 @@
                         </p>
                         <div class="d-flex justify-content-between">
                             <button type="button" class="btn text-white">
-                                <a href="https://www.npmjs.com/package/mappifysql" data-glightbox="type: external" title="MappifySQL"
-                                    class="project-lightbox text-white">
+                                <a href="https://www.npmjs.com/package/mappifysql" title="MappifySQL" class="text-white" onclick="openWindow(event)">
                                     Quick View <i class="bi bi-eye"></i>
                                 </a>
                             </button>
@@ -1004,6 +1003,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 
+    <script>
+        function openWindow(e) {
+            e.preventDefault();
+            var url = e.target.href;
+            window.open(url, '_blank', 'width=800,height=800');
+        }
+    </script>
     <!-- Script tags -->
 </body>
 
