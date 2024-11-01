@@ -145,6 +145,7 @@ h6 {
   }
 }
 
+
 /* back to top */
 .back-to-top {
   position: fixed;
@@ -215,6 +216,13 @@ h6 {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 40px;
 }
+
+.navbar-nav {
+  padding-left: 0;
+  /* justify-content: start; */
+  text-align: start;
+}
+
 .nav-scroll {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -228,15 +236,24 @@ h6 {
 .navbar .nav-icon {
   font-size: 15px;
   font-weight: 700;
-  color: #012970;
+  /* color: #012970; */
   margin-right: 25px;
   position: relative;
 }
 .nav-item a.active {
-  border-bottom: 3px solid #0563bb;
+  background-color: #012970 ;
+  color: white !important;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
-.nav-item a:hover {
-  border-bottom: 3px solid #012970;
+/* use image clip text if not active */
+.nav-item a:not(.active) {
+  background: url("https://i.ibb.co/1R0rdTj/cloud.jpg") no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
 }
 
 /* background image for text */

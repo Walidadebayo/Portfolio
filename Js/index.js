@@ -23,6 +23,12 @@ $('a[href^="#"]').on('click', function(e) {
   }, 200, 'swing');
 });
 
+  /** NAVBAR TOGGLE */
+  // check if the anchor is clicked and the navbar is open then close the navbar
+  $('.navbar-nav>li>a').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
 
 /** PRELOADER */
 $(window).on('load', function () {
