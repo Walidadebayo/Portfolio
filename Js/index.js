@@ -62,7 +62,7 @@ $(document).ready(function () {
 
   /** NAV-LINK ACTIVE ON SCROLL */
   $(window).on('scroll', function () {
-    var scrollPos = $(document).scrollTop();
+    var scrollPos = $(document).scrollTop() + 250;
     $('.nav-link').each(function () {
       var currLink = $(this);
       var refElement = $(currLink.attr("href"));
