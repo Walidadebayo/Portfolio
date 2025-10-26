@@ -12,13 +12,13 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 - 🎨 **Tailwind CSS 4** - Modern utility-first CSS framework
 - 🌓 **Dark Mode** - Seamless theme switching with next-themes
 - ✨ **Framer Motion** - Smooth animations and transitions
-- 📱 **Fully Responsive** - Optimized for all devices
+- 📱 **Fully Responsive** - Optimised for all devices
 - 🎯 **TypeScript** - Type-safe code throughout
 - 📧 **Contact Form** - Integrated with Formspree
 - 🎭 **UI Components** - Built with Radix UI primitives
 - 🎪 **Interactive Projects** - Filterable project showcase
 - 📄 **Resume Section** - Detailed experience and education timeline
-- 🛠️ **Skills Section** - Categorized technical skills
+- 🛠️ **Skills Section** - Categorised technical skills
 - 🎨 **Services Section** - Professional services offered
 
 ## 🛠️ Tech Stack

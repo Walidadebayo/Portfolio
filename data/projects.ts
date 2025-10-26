@@ -132,7 +132,7 @@ export const projects: Project[] = [
     title: "AdealTutor",
     type: "fullstack",
     description:
-      "AdealTutor is an educational platform providing students with access to past exam papers, revision notes, and AI-powered tools for creating flashcards, quizzes, and personalized notes.",
+      "AdealTutor is an educational platform providing students with access to past exam papers, revision notes, and AI-powered tools for creating flashcards, quizzes, and personalised notes.",
     image: "https://i.ibb.co/4ZWBkW1/adealtutor.png",
     link: "https://adealtutor.onrender.com",
     github: "https://github.com/adealtutor",

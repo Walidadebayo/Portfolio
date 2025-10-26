@@ -54,7 +54,7 @@ export const services: Service[] = [
   {
     title: "Database Design & Optimisation",
     description:
-      "Design and optimize databases for performance, scalability, and reliability.",
+      "Design and optimise databases for performance, scalability, and reliability.",
     icon: LuDatabase,
     features: [
       "Schema design",
